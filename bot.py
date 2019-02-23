@@ -1,6 +1,6 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-API_KEY = "696803337:AAHRA8aWsu40OrwwuHi1OaO-EKI-55GNs7k"
+from api_key import API_KEY
 
 PROXY = {'proxy_url': 'socks5://t1.learn.python.ru:1080',
     'urllib3_proxy_kwargs': {'username': 'learn', 'password': 'python'}}
